@@ -30,36 +30,37 @@
                 <div class="col-12 col-md-5 mb-3 ">
                     <label class="form-label">Card #</label>
                     <input class="form-control" required minlength="16" maxlength="16" placeholder="XXXXXXXXXXXXXXXX"
-                        type="text">
+                        type="text" name="card-number">
                 </div>
                 <div class="col-12 col-md-3">
                     <label class="form-label">CVC #</label>
-                    <input class="form-control" required placeholder="000" minlength="3" maxlength="3" type="text">
+                    <input class="form-control" required placeholder="000" minlength="3" maxlength="3" type="text"
+                        name="cvcNumber">
                 </div>
                 <!--Amount-->
                 <div class="col-12 col-md-4">
                     <label class="form-label">Amount</label>
-                    <input class="form-control" required placeholder="Amount" type="number">
+                    <input class="form-control" required placeholder="Amount" type="number" name="amount">
                 </div>
 
 
                 <!--User inputs -->
                 <div class="col-12 col-md-6 mb-3">
                     <label class="form-label">First name</label>
-                    <input class="form-control" required type="text">
+                    <input class="form-control" required type="text" name="firstName">
                 </div>
                 <div class="col-12 col-md-6">
                     <label class="form-label">Last name</label>
-                    <input class="form-control" required type="text">
+                    <input class="form-control" required type="text" name="lastName">
                 </div>
                 <!-- Location inputs-->
                 <div class="col-12 col-md-6">
                     <label class="form-label">City </label>
-                    <input class=" form-control" required type="text">
+                    <input class=" form-control" required type="text" name="city">
                 </div>
                 <div class="col-12 col-md-3">
                     <label class="form-label">State</label>
-                    <select class=" form-select" required placeholder="Pick a state" type="text">
+                    <select class=" form-select" required placeholder="Pick a state" type="text" name="state">
                         <option selected hidden>Pick a state</option>
                         <option value="1">Barcelona</option>
                         <option value="2">Orlando</option>
@@ -67,7 +68,8 @@
                     </select>
                 </div>
                 <div class="col-12 col-md-3">
-                    <label class="form-label">Postal code</label><input class="form-control" required type="number">
+                    <label class="form-label">Postal code</label><input class="form-control" required type="number"
+                        name="zipCode">
                 </div>
                 <!-- Cards Supported-->
 
@@ -105,7 +107,7 @@
                 <!-- Message -->
                 <div class="col-12 col-md-6">
                     <p class="mt-2">Message</p>
-                    <input class="p-4 form-control" type="textarea">
+                    <input class="p-4 form-control" type="textarea" name="message">
                     <p class="fs-6 fw-semibold text-secondary m-1">Add any notes here</p>
                 </div>
                 <!-- Cancel y send -->
